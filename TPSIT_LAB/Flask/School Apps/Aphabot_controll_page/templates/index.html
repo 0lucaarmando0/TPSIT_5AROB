@@ -1,0 +1,11 @@
+{% extends "base.html"%}
+{% block head%}{% endblock%}
+
+{% block body %}
+    <form method="get" class="container" action="/">
+        <input type="submit"class="btn" value="forward" formaction="/forward"></input>
+        <input type="submit" class="btn" value="back" formaction="/backward"></input>
+        <input type="submit" class="btn" value="left" formaction="/left"></input>
+        <input type="submit" class="btn" value="right" formaction="/right"></input>
+    </form>
+{% endblock %}

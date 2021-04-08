@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: medium;
+    font-family:fantasy, Geneva;
+    background-color: #85FFBD;
+    background-image: linear-gradient(to right, #85FFBD 0%, #FFFB7D 100%);
+
+}
+p{
+    padding:5px;
+    margin:0px;
+}
+div{
+    width: 50%;
+    height: 50%;
+}
+form{
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
